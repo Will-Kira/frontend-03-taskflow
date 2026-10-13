@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TaskFlow | Gerenciador de Tarefas</title>
+</head>
+<body>
+    <header>
+        <h1>TaskFlow</h1>
+        <p>Organize suas tarefas de forma simples.</p>
+    </header>
+        <main>
+            <form id="form-tarefa">
+                <input type="text" id="nova-tarefa" placeholder="Digite uma nova tarefa"/>
+                <button type="submit">Adicionar</button>
+            </form>
+            <div id="filtros">
+                <button type="button" id="filtro-todas">Todas</button>
+                <button type="button" id="filtro-pendentes">Pendentes</button>
+                <button type="button" id="filtro-concluidas">Concluídas</button>
+            </div>
+            <section id="tarefas">
+                <h2>Minhas Tarefas</h2>
+                <ul id="lista-tarefas">
+                    <li>Estudar JavaScript</li>
+                </ul>
+            </section>
+        </main>
+    <script src="script.js"></script>    
+</body>
+</html>
